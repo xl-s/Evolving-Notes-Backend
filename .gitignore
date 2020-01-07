@@ -1,2 +1,3 @@
 *.sublime-project
 *.sublime-workspace
+/backend/__pycache__
