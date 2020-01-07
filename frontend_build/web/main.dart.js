@@ -33426,7 +33426,7 @@ F.o4.prototype={
 aR:function(){return new F.IG(C.o)}}
 F.IG.prototype={
 aX:function(){this.bh()
-this.d=F.Mp("http://127.0.0.1:5000")},
+this.d=F.Mp("http://35.247.131.102/api")},
 U:function(a){var u=null
 return new T.jB(C.be,u,u,new B.nZ(this.d,new F.IH(),u,[F.kZ]),u)},
 $aab:function(){return[F.o4]}}

@@ -44,7 +44,7 @@ class _HomeState extends State<Home> {
   @override
   void initState() {
     super.initState();
-    request = requestGET(C.local);
+    request = requestGET(C.api);
   }
 
   @override
