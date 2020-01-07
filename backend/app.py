@@ -6,4 +6,6 @@ CORS(app)
 
 @app.route("/")
 def home():
-	return jsonify(body="🍆")
+	with open("content", "r", encoding="UTF-8") as f:
+		content = f.read().strip()
+	return jsonify(body=content)
